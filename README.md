@@ -1,0 +1,2 @@
+# create-a-toast-component-in-a-blazor-server-application
+This is a quick-start project provided by Syncfusion to help you create a Blazor Toast. This example explains how to create a Blazor application and add the Syncfusion Blazor package. It also shows how to add the Syncfusion Blazor Toast component to a Blazor server application, position the Toast, timeout, and render the toast content using an HTML template.
