@@ -55,7 +55,7 @@ Users can validate duplicate toast notifications and allow only distinct toast m
 
 [Documentation](https://blazor.syncfusion.com/documentation/toast/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-notifications-github-samples)
 
-[View Demos](https://blazor.syncfusion.com/demos/toast/default-functionalities?utm_source=github&utm_medium=listing&utm_campaign=blazor-notifications-github-samples)
+[View Demos](https://github.com/SyncfusionExamples/create-a-toast-component-in-a-blazor-server-application.git?utm_source=github&utm_medium=listing&utm_campaign=blazor-notifications-github-samples)
 
 [Community Forums](https://www.syncfusion.com/forums/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-notifications-github-samples)
 
@@ -79,6 +79,6 @@ Today, we provide 1700+ components and frameworks for web ([Blazor](https://www.
 <hr style="height:0.3px;border:none;color:lightgrey;background-color:lightgrey;" />
 
 <p align="center">
-<a href="mailto:sales@syncfusion.com?Subject=Syncfusion Blazor toast  - GitHub" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=blazor-notifications-github-samples">www.syncfusion.com</a>| Toll Free: 1-888-9 DOTNET <br>
+<a href="mailto:sales@syncfusion.com?Subject=Syncfusion Blazor toast - GitHub" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=blazor-notifications-github-samples">www.syncfusion.com</a>| Toll Free: 1-888-9 DOTNET <br>
 </p>
 
