@@ -2,15 +2,18 @@
 
 [Blazor Toast](https://www.syncfusion.com/blazor-components/blazor-toast?utm_source=github&utm_medium=listing&utm_campaign=blazor-toast-github-samples) is a small, nonblocking notification pop-up. This is a quick-start project provided by Syncfusion to help you create a Blazor Toast. This example explains how to create a Blazor application and add the Syncfusion Blazor package. It also shows how to add the Syncfusion Blazor Toast component to a Blazor server application, position the Toast, timeout, and render the toast content using an HTML template.
 
-Watch a How-to Video: https://www.syncfusion.com/tutorial-videos/blazor/toast?title=create-a-toast-component-in-a-blazor-server-application
+**Watch a How-to Video**: https://www.syncfusion.com/tutorial-videos/blazor/toast?title=create-a-toast-component-in-a-blazor-server-application
 
-## Project prerequisites
-Make sure that you have compatible versions of .NET Core on your machine before starting to work on this project. You also need the following:
-* [Visual Studio 2019 (version 16.4+)]( https://visualstudio.microsoft.com/downloads)
-* [.NET Core SDK 3.1.201+](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+## Prerequisites
 
-## How to run this application
-To run this application, you need to first clone or download the ‘Create a Toast Component in a Blazor Server Application’ repository and then open it in Visual Studio 2019. Now, build and run your project to view the output.
+* Visual Studio 2022
+
+## How to run the project
+
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
 
 ## Further help
 
