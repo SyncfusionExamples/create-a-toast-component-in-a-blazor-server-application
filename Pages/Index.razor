@@ -1,68 +1,26 @@
 ﻿@page "/"
-@using Syncfusion.Blazor.Notifications
-@using Syncfusion.Blazor.Buttons
 
-<SfToast @ref="ToastObj" Title="Adaptive Tiles Meeting" Content="@ToastContent" TimeOut="0" ShowCloseButton="true">
-            <ToastPosition X="Right" Y="Top"></ToastPosition>
-</SfToast>
+    <SfToast ID="toast_default" @ref="ToastObj" Title="Adaptive Tiles Meeting" Content="@ToastContent" ShowCloseButton="true" Timeout="5000">
+        <ToastPosition X="@ToastPosition" Y="Top"></ToastPosition>
+    </SfToast>
 
-    <SfButton Content="Show Toasts" @onclick="@ShowOnClick"></SfButton>
-    <SfButton Content="Hide All" @onclick="@HideOnClick"></SfButton>
+            <SfButton class="e-btn" @onclick="@ShowOnClick">Show Toasts</SfButton>
+            <SfButton class="e-btn" @onclick="@HideOnClick">Hide All</SfButton>
 
-    @code {
-        SfToast ToastObj;
-
-        public string ToastContent { get; set; } = "Conference Room 01 / Building 135 10:00 AM-10:30 AM";
-
-        private void ShowOnClick()
-        {
-            this.ToastObj.Show();
-        }
-
-        private void HideOnClick()
-        {
-            this.ToastObj.Hide("All");
-        }
-    }
-
-@*<SfToast @ref="ToastObj" TimeOut="0" ShowCloseButton="true">
-    <ToastPosition X="Right" Y="Top"></ToastPosition>
-    <ToastTemplates>
-        <Template>
-            <div id='template_toast'>
-                <div class="horizontal-align">
-                    <div class='toast-content'>
-                        <div class='toast-title'>
-                            Weekend Alarm
-                        </div>
-                        <div class='toast-message'>
-                            With traffic, its likely to take 45 minutes to get to jenny's 24th Birthday Bash at Hillside Bar, 454 E.
-                            Olive Way by 10:00PM
-                        </div>
-                    </div>
-                </div>
-                <img src="https://ej2.syncfusion.com/demos/src/toast/resource/map.jpg">
-            </div>
-        </Template>
-    </ToastTemplates>
-</SfToast>
-
-<SfButton Content="Show Toasts" @onclick="@ShowOnClick"></SfButton>
-<SfButton Content="Hide All" @onclick="@HideOnClick"></SfButton>
 
 @code {
     SfToast ToastObj;
-
-    private void ShowOnClick()
+    private string ToastPosition = "Right";
+    private string ToastContent = "Conference Room 01 / Building 135 10:00 AM-10:30 AM";
+    private async Task ShowOnClick()
     {
-        this.ToastObj.Show();
+        await this.ToastObj.ShowAsync();
     }
-
-    private void HideOnClick()
+    private async Task HideOnClick()
     {
-        this.ToastObj.Hide("All");
+        await this.ToastObj.HideAsync("All");
     }
-}*@
+}
 
 <style>
     @@font-face {
@@ -72,9 +30,9 @@
         font-style: normal;
     }
 
-    img{
-        width:100%;
-        height:70%;
+    img {
+        width: 100%;
+        height: 70%;
     }
 
     .toast-icons {
@@ -142,11 +100,11 @@
         width: 100%;
     }
 
-    #template_toast .horizontal-align .toast-content {
-        display: inline-flex;
-        flex: 1;
-        flex-direction: column;
-        margin-left: 10px;
-    }
+        #template_toast .horizontal-align .toast-content {
+            display: inline-flex;
+            flex: 1;
+            flex-direction: column;
+            margin-left: 10px;
+        }
 
 </style>
